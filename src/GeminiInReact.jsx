@@ -5,7 +5,7 @@ function GeminiInReact() {
     const [promptResponses, setpromptResponses] = useState([]);
     const [loading, setLoading] = useState(false);
     const genAI = new GoogleGenerativeAI(
-        "AIzaSyClQmLghwRGqHz7pTfVFGclVmzwDDIgG70"
+        
         // add your api key here
     );
     const handleInputChange = (e) => {
